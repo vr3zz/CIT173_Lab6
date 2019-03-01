@@ -1,0 +1,199 @@
+    1  sudo mkdir /mnt/data
+    2  sudo mkdir /mnt/backup
+    3  sudo cat /etc/fstab 
+    4  clear
+    5  cd
+    6  mkdir CIT173_Lab5
+    7  ls
+    8  fdisk
+    9  fdisk --help
+   10  fdisk /dev/sdb
+   11  sudo fdisk /dev/sdb
+   12  clear
+   13  cfdisk
+   14  sudo cfdisk /dev/sdb
+   15  celar
+   16  clear
+   17  ccd /dev
+   18  cd /ddddddddddddev
+   19  cd /dev
+   20  ls
+   21  mount sdb /mnt/data
+   22  sudp mount sdb /mnt/data
+   23  sudo mount sdb /mnt/data
+   24  sudo mkfs /dev/sdb1
+   25  sudo mkfs /dev/sdb2
+   26  clear
+   27  sudp mount sdb1 /mnt/data
+   28  sudop mount sdb1 /mnt/data
+   29  sudo mount sdb1 /mnt/data
+   30  sudo mount sdb /mnt/backup
+   31  sudo mount sdb2 /mnt/backup
+   32  clear
+   33  sudo nano /etc/fstab 
+   34  aptget nano
+   35  aptget install nano
+   36  apt-get install nano
+   37  clear
+   38  install
+   39  install nano
+   40  sudo dnf install nano
+   41  sudo nano /etc/fstab 
+   42  reboot
+   43  mount
+   44  cd
+   45  ls
+   46  cd CIT173_Lab5/
+   47  ls
+   48  mount > ny-mounts.txt
+   49  cp
+   50  cp /etc/fstab ~/CIT173_Lab5/my-fstab.txt
+   51  ls
+   52  cat my-fstab.txt 
+   53  clear
+   54  dd
+   55  clear
+   56  dd ?
+   57  ?
+   58  man dd
+   59  clear
+   60  cd
+   61  cd /dev/random
+   62  dd /dev/random count=1000 > /mnt/data/data-file1/txt
+   63  dd /dev/random count=1000 > /mnt/data/data-file1.txt
+   64  sudo dd /dev/random count=1000 > /mnt/data/data-file1.txt
+   65  sudo -l
+   66  sudo -s
+   67  mkdir CIT173_Lab6
+   68  ls
+   69  cd CIT173_Lab6
+   70  ls
+   71  clear
+   72  sudo groupadd actors
+   73  sudo groupadd directors
+   74  sudo groupadd producers
+   75  sudo user add -m mhamill
+   76  sudo useradd -m mhamill
+   77  sudo usermod
+   78  sudo usermod mhamill
+   79  sudo usermod mhamill -p luke
+   80  clear
+   81  usermod
+   82  usermod mhamill -g actors
+   83  usermod mhamill -G actors
+   84  root usermod mhamill -G actors
+   85  sudo usermod mhamill -G actors
+   86  sudo useradd hford -h solo
+   87  sudo useradd hford -m
+   88  sudo usermod hford -p solo
+   89  sudo usermod hford -g actors
+   90  sudo useradd cfisher -m
+   91  sudo usermod cfisher -p princess
+   92  sudo usermod cfisher -g actors
+   93  sudo user add glucas -m 
+   94  sudo useradd glucas -m 
+   95  sudo usermod glucas -p ilm
+   96  sudo usermod glucas -g directors,producers
+   97  sudo usermod glucas -g directors
+   98  sudo usermod glucas -gproducers
+   99  sudo usermod glucas -g producers
+  100  sudo usermod glucas -g
+  101  sudo usermod mhamill -l Mark Hamill
+  102  clear
+  103  sudo usermod mhamill -l "Mark Hamill"
+  104  sudo usermod mhamill -l 'Mark Hamill'
+  105  sudo usermod mhamill -l Mark Hamill
+  106  sudo usermod mhamill -l Mark_Hamill
+  107  sudo usermod hford -l Harrison_Ford
+  108  sudo usermod cfisher -l Carrie_Fisher
+  109  sudo usermod glucas -l George_Lucas
+  110  gr
+  111  sudo nano /etc/group
+  112  members
+  113  id
+  114  lid
+  115  sudo lid
+  116  sudo lid glucas
+  117  sudo George_lucas
+  118  sudo lid George_lucas
+  119  sudo lid 4
+  120  members
+  121  sudo members
+  122  $ members
+  123  $members
+  124  echo $members
+  125  sudo lid -g directors
+  126  sudo lid  directors
+  127  sudo lid -g directors
+  128  clear
+  129  sudo useradd gkurtz
+  130  sudoe usermod gkurts -
+  131  sudoe usermod gkurts -m
+  132  sudo usermod gkurts -m
+  133  sudo usermod gkurtz -m
+  134  sudo usermod gkurtz -p oz
+  135  sudo usermod gkurtz -g producers
+  136  nano /etc/passwd
+  137  nano /etc/groups
+  138  sudo nano /etc/groups
+  139  sudo nano /etc/group
+  140  groups
+  141  grep glucas groups
+  142  grep glucas /etc/group
+  143  grep glucas group
+  144  clear
+  145  sudo usermod glucas -g directors
+  146  sudo users
+  147  sudo useradd mhamill
+  148  sudo useradd glucas
+  149  sudo newuser
+  150  sudo usermod glucas -g directors
+  151  sudo useradd glucas -g directors
+  152  clear
+  153  sudo userrm
+  154  sudo userdel Mark_Hamill
+  155  sudo userdel Harrison_Ford
+  156  sudo userdel Carrie_Fisher
+  157  sudo userdel George_Lucas
+  158  sudo userdel Gary_Kurtz
+  159  sudo userdel gkurtz
+  160  sudo useradd mkhamill
+  161  sudo useradd mkgamill -p luke
+  162  sudo userdel mkgamill
+  163  sudo useradd mkhamill -p luke
+  164  sudo useradd mkhamill -p luk
+  165  sudo usermod mkhamill -p luke
+  166  sudo usermod mkhamill -g actors
+  167  sudo useradd hford -m -p solo
+  168  sudo userdel hford
+  169  sudo userdel Harrison_Ford
+  170  sudo useradd hford -m -p -g solo
+  171  clear
+  172  sudo useradd hford -m 
+  173  sudo groupdel hford
+  174  sudo useradd hford -m -p solo
+  175  sudo usermod hford -g actors
+  176  sudo useradd cfisher -m -p princess
+  177  sudo groupdel cfisher
+  178  sudo useradd cfisher -m -p princess
+  179  sudo groupdel glucas
+  180  sudo usermod cfisher -g actors
+  181  sudo useradd glucas -m -p lim
+  182  sudo userdel glucas
+  183  sudo useradd glucas -m -p lim
+  184  sudo usermod glucas -g directors
+  185  sudo usermod glucas -G producers
+  186  sudo useradd gkurtz -m -p oz
+  187  sudo groupdel gkurtz
+  188  sudo useradd gkurtz -m -p oz
+  189  sudo usermod gkurtz -g producers
+  190  sudo cat /etc/group
+  191  sudo usermod
+  192  sudo usermod glucas -G producers
+  193  clear
+  194  sudo cp /etc/passwd ~/CIT173_Lab6/
+  195  ls
+  196  cp /etc/group ~/CIT173_Lab6/
+  197  echo $history
+  198  history
+  199  history > ex1-command-history.txt
